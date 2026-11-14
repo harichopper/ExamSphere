@@ -1,0 +1,33 @@
+# ── Maven build output ──────────────────────────────────────────────────────
+target/
+*.jar
+*.war
+*.ear
+dependency-reduced-pom.xml
+
+# ── IDE files ────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ── OS files ─────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+
+# ── ExamSphere runtime data (never commit) ───────────────────────────────────
+data/
+*.db
+
+# ── jqwik test database ───────────────────────────────────────────────────────
+.jqwik-database
+
+# ── Kiro spec files (dev tooling, not part of project) ───────────────────────
+.kiro/
